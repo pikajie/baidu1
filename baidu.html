@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,minimum-scale=1,maximum-scale=1">
+	<title>百度一下，你就知道</title>
+	<!-- 这一句可以在title里面添加图片，也就是浏览器的标签上网址前的图片 -->
+	<link rel="Shortcut icon" href="5.png" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="">
+	<style type="text/css">
+	*{
+		margin:0px;
+		padding: 0px; 
+	}
+		.zj_div1{
+			margin-top: 15px;
+			margin-right:10px; 
+			text-align: right;
+			display: block;
+		}
+		.zj_div1 a{
+			color: #333;
+			font-size: 13px;
+			font-weight: bold;
+			cursor: pointer;
+		}
+		.zj_div1 a:hover{
+			color: blue;
+		}
+
+		.nav_a{
+			display: inline-block;
+			padding-right: 10px;
+		}
+
+		.zj_div1 .last_a{
+			display: inline-block;
+			padding: 5px;
+			border: 1px solid right;
+			border-radius: 1px;
+			color: white;
+			background-color: #38f;
+		}
+
+		.zj_div2{
+			width: 100%;
+			padding-top: 80px;
+			text-align: center;
+		}
+
+		.zj_div3{
+			width: 100%;
+			text-align: center;
+		}
+
+		.zj_input1{
+			
+			width: 40%;
+			height: 30px;
+		}
+
+		.zj_button1{
+			position: relative;
+			width: 100px;
+			border:1px solid #38f;
+			height: 34px;
+			line-height: 0;
+			padding:8px;
+			color:  white; 
+			background-color: #38f;
+			font-size: 15px;
+			cursor: pointer;
+		
+		}
+
+		button:hover{
+			background-color: #317ef3;
+		}
+
+		.zj_div4{
+			width: 100%;
+			text-align: center;
+			bottom: 60px;
+			position: fixed;/*定位时这句话一定要有*/
+
+		}
+
+		.zj_div4 a{
+			display: inline-block;
+			font-size: 11px;
+			color: #999;
+			padding-right: 15px;
+		}
+	     .zj_div5{
+			width: 100%;
+			text-align: center;
+			bottom: 35px;
+			position: fixed;
+		}
+
+		.zj_div5 p{
+			font-size: 11px;
+			color: #999;
+		}
+
+        .zj_div5 a{
+			display: inline-block;
+			font-size: 11px;
+			color: #999;
+		}
+        
+        .zj_img{
+        	width: 100%;
+        	text-align: center;
+        	bottom:  90px;
+        	position:fixed;
+        }
+
+	</style>
+</head>
+<body>
+<div class="zj_div1">
+	<a href="#" class="nav_a">新闻</a>
+	<a href="#" class="nav_a">hao123</a>
+	<a href="#" class="nav_a">地图</a>
+	<a href="#" class="nav_a">视频</a>
+	<a href="#" class="nav_a">贴吧</a>
+	<a href="#" class="nav_a">学术</a>
+	<a href="#" class="nav_a">登录</a>
+	<a href="#" class="nav_a">设置</a>
+	<a href="#" class="last_a">更多产品</a>
+</div>
+
+<div class="zj_div2">
+<img src="1.png" alt="baidu.logo" class="zj_img1">
+</div>
+
+<div class="zj_div3">
+<form>
+<input type="text" name="输入" class="zj_input1" id="input1" /><button type="button" class="zj_button1">郑洁一下</button>
+</form>
+</div>
+
+<div class="zj_div4">
+<a href="#">把百度设为主页</a>
+<a href="#">关于百度</a>
+<a href="#">About Baidu</a>
+<a href="#">百度推广</a>
+</div>
+<div class="zj_img">
+<img src="2.png" src="手机百度">
+</div>
+<div class="zj_div5">
+<p style="color: #999">&copy;2017 Baidu
+<a href="#">使用百度前必读</a>&nbsp;
+<a href="#">意见反馈</a>
+京ICP证030173号<img src="3.png">&nbsp;&nbsp;
+<a href="#">京公网安备11000002000001号<img src="4.png"></a>
+</p></div>
+<script type="text/javascript">
+window.onload=document.getElementById('input1').focus();
+</script>
+</body>
+                                 
